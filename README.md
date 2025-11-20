@@ -3,14 +3,14 @@ Camera Calibration Program for Platypus Vision
 
 Image Quality Analyzer & PDF Report Generator
 
-This project processes images to evaluate several quality metrics—focus sharpness, light intensity, reprojection error, and color balance comparison —and automatically generates a PDF report summarizing the results.
+This project processes images to evaluate several quality metrics (focus sharpness, light intensity, reprojection error, and color balance comparison) and automatically generates a PDF report summarizing the results.
 It includes visual annotations, colored pass/fail indicators, and configurable thresholds.
 
 Features:
 Image Quality Analysis
 
 Focus Value Detection
-Measures sharpness using the Sobel Variance method. Other methods are implemented so that changing the method of measurement would be easy.
+Measures sharpness using the Sobel Variance method. Other methods are implemented to make it easy to change the method of measurement.
 
 Light Intensity Calculation
 Computes average brightness intensity values from a gray image.
